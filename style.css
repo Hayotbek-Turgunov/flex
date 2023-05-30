@@ -140,6 +140,9 @@ margin-right: 0;
   display: flex;
   justify-content: space-between;
 }
+.site-footer-list{
+  list-style: none;
+}
 .site-footer-info {
   color: #fff;
 }
