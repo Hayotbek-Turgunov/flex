@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-header-container{
+  display: flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  justify-content: space-between;
+
+}
+.site-header-list{
+  display: flex;
+  list-style: none;
+}
+.logo-link{
+  text-decoration: none;
+}
+.logo-link-title{
+  padding-top: 5px;
+  padding-left: 10px;
+  color: black;
+}
+.sitenav-list{
+  display: flex;
+  list-style: none;
+}
+.sitenav-link{
+ font-size: 18px;
+ line-height: 1.5;
+ font-weight: 500;
+
+}
+.sitenav-item{
+  margin-right: 20px;
+}
+.sitenav-item:last-child{
+margin-right: 0;
+}
+.hero{
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: rgba(169, 169, 169, 0.58);
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content{
+  width: 490px;
+}
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.hero-content-list {
+  list-style: none;
+}
+.hero-content-item {
+ margin-top: 15px;
+}
+.hero-content-link {
+  color: black;
+  text-decoration: none;
+}
+.hero-form{
+  width: 700px;
+}
+.hero-form-input-one{
+ width: 42%;
+ padding-left: 20px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ border: 1px solid gray;
+
+}
+.hero-form-input-two{
+   width: 43%;
+   padding-left:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+  margin-left: 100px;
+ }
+
+.hero-form-input-three{
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.hero-form-input-five{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding-left: 20PX;
+}
+.hero-form-button{
+  display: inline-block;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #fff;
+  background-color:dodgerblue;
+  text-decoration: none ;
+  transition: opacity 0.4s ease;
+  padding: 12px 24px 12px 24px;
+   border: none;
+}
+.article-img img{
+  width: 100%;
+  height: 400px;
+}
+.site-footer{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.site-footer-heading{
+  margin-bottom: 20px;
+}
+.site-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.site-footer-info {
+  color: #fff;
+}
+.site-footer-title {
+  color: #fff;
+}
+.site-footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+.site-footer-email-link{
+  text-decoration: none;
+}
